@@ -1,1 +1,1 @@
-alert("This is Benedict site");
+alert("This is Benedict site")
