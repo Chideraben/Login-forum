@@ -1,0 +1,187 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('images/img.jpg');
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+.main-container{
+  width: 300px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  border-radius: 10px;
+  backdrop-filter: blur(60px);
+
+
+}
+.container{
+  display: grid;
+  place-items: center;
+  width: 400px;
+  height: 360px;
+}
+
+form{
+    height: 200px;
+    margin-top: -80px;
+}
+input{
+    width: 200px;
+    margin-bottom: 20px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    border-right: 1px solid chocolate;
+    box-shadow: 2px 3px 4px var(--white);
+    outline: none;
+    color: wheat;
+    font-size: larger;
+    padding: 10px;
+}
+::placeholder{
+   
+    color: rgba(243, 238, 238, 0.863);
+}
+
+
+.radio{
+    box-shadow: none;
+    display: ;
+    
+}
+.gap{
+  display: flex;  
+  
+  align-items: center;
+}
+a , .a{
+    text-decoration: none;
+    font-size: 10px;
+}
+h4{
+    color:rgba(0, 0, 0, 0.623);
+}
+#log{
+    width:170px;
+    height: 40px;
+    font-size: 20px;
+    background-color: burlywood;
+    box-shadow: 10px 10px  rgba(210, 105, 30, 0.336);
+    border: none;
+    color: chocolate;
+    font-family: sans-serif;
+    border-radius: 8px;
+    margin-top: 10px;
+    animation: alternate;
+    
+    
+}
+#log:hover{
+    width: 170px;
+    transform: scale(1.2);
+   
+}
+#h1{
+    font-family:sans-serif;
+   margin-bottom: 10px;
+   text-align: center;
+   width: 190px;
+   animation-name: calla;
+   animation: callo 5s infinite;
+   
+   
+}
+@keyframes callo{
+    7.00% { color: #ff0000; }
+    8.333% { color: #ff8000; }
+    16.667% { color: #ffff00; }
+    25.000% { color: bisque; }
+    33.333% { color: #00ff00; }
+    41.667% { color: red; }
+    50.000% { color: #00ffff; }
+    58.333% { color: #0080ff; }
+    66.667% { color: #0000ff; }
+    75.000% { color: purple; }
+    83.333% { color: #ff00ff; }
+    91.667% { color: gray; }
+    100% {color: chocolate; }
+}
+
+#border-top{
+    position: absolute;
+    width: 200px;
+    height: 3px;
+    top: 0;
+    right: 0;
+    background-color: linear-gradient(to right, #171618, #fcc23f);
+    animation: anime-top 2s ;
+}
+:root{
+    --clr: chocolate;
+
+}
+#top{
+    position: absolute;
+    width: 93px;
+    height: 93px;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.377) ;
+    border-radius: 100%;
+    background-color: var(--clr);
+    background-image: url("images/img.jpg");
+    background-size: 90px;
+    filter: blur(0.9px);
+    top: -14%;
+    -webkit-filter: blur(0.9px);
+/*transform: translateX(4px);
+    transition: all 4s ease-out;*/
+   
+}
+#right{
+    position: absolute;
+    width: 20px;
+    height: 15px;
+    
+    border-top-right-radius: 100%;
+   
+    top: -0.2%;
+    left: 90px;
+    backdrop-filter: blur(3px);
+    
+}
+#border-top{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border: 3px solid chocolate;
+    top: 90%;
+    right: 20px;
+    border-radius: 100%;
+    animation:3s rad  infinite;
+   
+}
+@keyframes rad{
+  100%{ transform:translateY(3px)    ;  }
+
+}
+#flex{
+    background-color: transparent;
+    text-align: center;
+    font-weight: 800;
+    color: white;
+    font-size: xx-large;
+    margin-top: 10%;
+    border-radius: 100%;
+    
+}
