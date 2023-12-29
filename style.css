@@ -163,11 +163,10 @@ h4{
 #border-top{
     width: 50px;
     height: 50px;
-    position: absolute;
+    position: fixed;
     border: 3px solid chocolate;
     top: 90%;
     right: 20px;
-    display:none;
     border-radius: 100%;
     animation:3s rad  infinite;
    
@@ -184,5 +183,4 @@ h4{
     font-size: xx-large;
     margin-top: 10%;
     border-radius: 100%;
-    display:none;
 }
