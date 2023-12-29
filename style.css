@@ -167,6 +167,7 @@ h4{
     border: 3px solid chocolate;
     top: 90%;
     right: 20px;
+    display:none;
     border-radius: 100%;
     animation:3s rad  infinite;
    
