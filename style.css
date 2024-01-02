@@ -187,7 +187,21 @@ h4{
 
 @media only screen and(min-width:500px){
     .main-container{
-        width:600px;
-        height:500px;
-    }
+  width: 900px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  border-radius: 10px;
+  backdrop-filter: blur(60px);
+
+
+}
+.container{
+  display: grid;
+  place-items: center;
+  width: 900px;
+  height: 560px;
+}
+
 }
